@@ -666,8 +666,16 @@ video {
   margin-left: 8px;
 }
 
-.ml-auto {
-  margin-left: auto;
+.mb-\[16px\] {
+  margin-bottom: 16px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.mb-\[18px\] {
+  margin-bottom: 18px;
 }
 
 .inline-block {
@@ -678,6 +686,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -686,12 +698,20 @@ video {
   height: 1.5rem;
 }
 
+.h-\[2000px\] {
+  height: 2000px;
+}
+
 .h-\[275px\] {
   height: 275px;
 }
 
-.h-\[2000px\] {
-  height: 2000px;
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[300px\] {
+  height: 300px;
 }
 
 .w-\[256px\] {
@@ -714,14 +734,12 @@ video {
   flex: 1 1 0%;
 }
 
-.scale-110 {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: var(--tw-transform);
-}
-
 .cursor-not-allowed {
   cursor: not-allowed;
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -732,6 +750,10 @@ video {
   align-items: flex-start;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -740,35 +762,26 @@ video {
   justify-content: space-between;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.space-y-9 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
 
-<<<<<<< HEAD
 .rounded-full {
   border-radius: 9999px;
 }
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-.rounded-full {
-  border-radius: 9999px;
-=======
-=======
-.rounded-full {
-  border-radius: 9999px;
-}
-
->>>>>>> c54e4ca (login / signup)
->>>>>>> fee1f33 (login / signup)
 .border {
   border-width: 1px;
-}
-
-.border-gray-200 {
-  --tw-border-opacity: 1;
-  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -809,11 +822,6 @@ video {
   --tw-gradient-to: #121212;
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -833,37 +841,14 @@ video {
   padding-bottom: 0.5rem;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.py-\[8px\] {
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.px-\[34px\] {
-  padding-left: 34px;
-  padding-right: 34px;
-}
-
->>>>>>> c54e4ca (login / signup)
->>>>>>> fee1f33 (login / signup)
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-<<<<<<< HEAD
 .px-\[32px\] {
   padding-left: 32px;
   padding-right: 32px;
-=======
-.px-\[36px\] {
-  padding-left: 36px;
-  padding-right: 36px;
->>>>>>> c54e4ca (login / signup)
 }
 
 .py-\[9px\] {
@@ -874,28 +859,14 @@ video {
 .px-\[38px\] {
   padding-left: 38px;
   padding-right: 38px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
 }
 
-.py-\[16px\] {
-  padding-top: 16px;
-  padding-bottom: 16px;
+.pt-\[24px\] {
+  padding-top: 24px;
 }
 
-.px-\[32px\] {
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
->>>>>>> c54e4ca (login / signup)
-.pl-\[45px\] {
-  padding-left: 45px;
->>>>>>> 4ca7295 (back/forward buttons)
->>>>>>> fee1f33 (login / signup)
+.pb-\[48px\] {
+  padding-bottom: 48px;
 }
 
 .text-sm {
@@ -912,55 +883,31 @@ video {
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
-<<<<<<< HEAD
-=======
-.font-bold {
-  font-weight: 700;
-}
-
->>>>>>> c54e4ca (login / signup)
 .uppercase {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-=======
-.leading-9 {
-  line-height: 2.25rem;
+.capitalize {
+  text-transform: capitalize;
 }
 
-.leading-loose {
-  line-height: 2;
-}
-
-.leading-relaxed {
-  line-height: 1.625;
-}
-
-.leading-7 {
-  line-height: 1.75rem;
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .leading-6 {
   line-height: 1.5rem;
 }
 
->>>>>>> c54e4ca (login / signup)
-.leading-5 {
-  line-height: 1.25rem;
-}
-
-<<<<<<< HEAD
-=======
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
->>>>>>> c54e4ca (login / signup)
 .tracking-widest {
   letter-spacing: 0.1em;
 }
@@ -985,24 +932,15 @@ video {
   color: rgba(46, 46, 46, var(--tw-text-opacity));
 }
 
-.text-\[\#1f1f1f\] {
+.text-\[\#b3b3b3\] {
   --tw-text-opacity: 1;
-  color: rgba(31, 31, 31, var(--tw-text-opacity));
+  color: rgba(179, 179, 179, var(--tw-text-opacity));
 }
 
 .duration-300 {
   transition-duration: 300ms;
 }
 
-<<<<<<< HEAD
-=======
-.hover\:scale-110:hover {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: var(--tw-transform);
-}
-
->>>>>>> c54e4ca (login / signup)
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
