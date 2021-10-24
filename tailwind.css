@@ -608,12 +608,36 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
 
 .top-0 {
   top: 0px;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-auto {
+  z-index: auto;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .my-6 {
@@ -694,6 +718,22 @@ video {
   height: 60px;
 }
 
+.h-\[2000px\] {
+  height: 2000px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[315px\] {
+  height: 315px;
+}
+
+.h-\[275px\] {
+  height: 275px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -756,6 +796,11 @@ video {
   border-width: 1px;
 }
 
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -774,6 +819,52 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
+}
+
+.bg-\[\#121212\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(18, 18, 18, var(--tw-bg-opacity));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-\[\#121212\] {
+  --tw-gradient-from: #121212;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(18, 18, 18, 0));
+}
+
+.from-\[\#1f1f1f\] {
+  --tw-gradient-from: #1f1f1f;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 31, 31, 0));
+}
+
+.to-gray-400 {
+  --tw-gradient-to: #9ca3af;
+}
+
+.to-\[\#121212\] {
+  --tw-gradient-to: #121212;
 }
 
 .p-1 {
@@ -837,6 +928,10 @@ video {
 
 .pl-\[45px\] {
   padding-left: 45px;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
 }
 
 .text-sm {
