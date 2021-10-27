@@ -667,10 +667,14 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a5620fe (heading - 3)
 .mb-\[16px\] {
   margin-bottom: 16px;
 }
 
+<<<<<<< HEAD
 .mb-\[20px\] {
   margin-bottom: 20px;
 }
@@ -681,6 +685,8 @@ video {
 
 =======
 >>>>>>> bbe5e4e (content - gradient - 3)
+=======
+>>>>>>> a5620fe (heading - 3)
 .inline-block {
   display: inline-block;
 }
@@ -882,6 +888,11 @@ video {
 >>>>>>> bbe5e4e (content - gradient - 3)
 }
 
+.py-\[24px\] {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -896,12 +907,28 @@ video {
   line-height: 1rem;
 }
 
+<<<<<<< HEAD
+=======
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+>>>>>>> a5620fe (heading - 3)
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a5620fe (heading - 3)
 .font-semibold {
   font-weight: 600;
 }
@@ -934,6 +961,18 @@ video {
   letter-spacing: 0.1em;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-normal {
+  letter-spacing: 0em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
 .text-\[\#b2b2b2\] {
   --tw-text-opacity: 1;
   color: rgba(178, 178, 178, var(--tw-text-opacity));
@@ -955,13 +994,19 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a5620fe (heading - 3)
 .text-\[\#b3b3b3\] {
   --tw-text-opacity: 1;
   color: rgba(179, 179, 179, var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> bbe5e4e (content - gradient - 3)
+=======
+>>>>>>> a5620fe (heading - 3)
 .duration-300 {
   transition-duration: 300ms;
 }
