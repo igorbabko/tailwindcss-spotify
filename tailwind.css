@@ -636,40 +636,20 @@ video {
   bottom: 0.5rem;
 }
 
-<<<<<<< HEAD
 .top-9 {
   top: 2.25rem;
 }
 
 .left-9 {
   left: 2.25rem;
-=======
-.left-0 {
-  left: 0px;
->>>>>>> 9136103 (install line-clamp - 5)
 }
 
 .left-full {
   left: 100%;
 }
 
-<<<<<<< HEAD
-=======
-.top-10 {
-  top: 2.5rem;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
->>>>>>> 9136103 (install line-clamp - 5)
 .z-10 {
   z-index: 10;
-}
-
-.col-span-2 {
-  grid-column: span 2 / span 2;
 }
 
 .my-6 {
@@ -728,10 +708,6 @@ video {
 
 .mb-1 {
   margin-bottom: 0.25rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -827,15 +803,11 @@ video {
   cursor: auto;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 9136103 (install line-clamp - 5)
 .cursor-default {
   cursor: default;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -848,21 +820,30 @@ video {
 }
 
 >>>>>>> b495309 (install line-clamp - 5)
+=======
+>>>>>>> 82aed6d (grid and hide sidebar - 7)
 .grid-cols-main {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c1c094e (menu)
 >>>>>>> 9136103 (install line-clamp - 5)
 >>>>>>> b495309 (install line-clamp - 5)
+=======
+>>>>>>> 82aed6d (grid and hide sidebar - 7)
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-end {
@@ -885,34 +866,22 @@ video {
   gap: 1.25rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .space-y-9 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
 }
 
-<<<<<<< HEAD
-=======
-.divide-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
-}
-
->>>>>>> 9136103 (install line-clamp - 5)
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 
-<<<<<<< HEAD
-=======
-.divide-solid > :not([hidden]) ~ :not([hidden]) {
-  border-style: solid;
-}
-
->>>>>>> 9136103 (install line-clamp - 5)
 .divide-\[\#3e3e3e\] > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgba(62, 62, 62, var(--tw-divide-opacity));
@@ -922,13 +891,6 @@ video {
   overflow: auto;
 }
 
-<<<<<<< HEAD
-=======
-.overflow-visible {
-  overflow: visible;
-}
-
->>>>>>> 9136103 (install line-clamp - 5)
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -980,11 +942,6 @@ video {
   background-color: rgba(28, 185, 85, var(--tw-bg-opacity));
 }
 
-.bg-purple-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(139, 92, 246, var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -998,15 +955,9 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(31, 31, 31, 0));
 }
 
-<<<<<<< HEAD
 .from-\[\#af2896\] {
   --tw-gradient-from: #af2896;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(175, 40, 150, 0));
-=======
-.from-\[\#af2796\] {
-  --tw-gradient-from: #af2796;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(175, 39, 150, 0));
->>>>>>> 9136103 (install line-clamp - 5)
 }
 
 .to-\[\#121212\] {
@@ -1025,13 +976,6 @@ video {
   padding: 1rem;
 }
 
-<<<<<<< HEAD
-=======
-.p-2 {
-  padding: 0.5rem;
-}
-
->>>>>>> 9136103 (install line-clamp - 5)
 .p-3 {
   padding: 0.75rem;
 }
@@ -1071,50 +1015,21 @@ video {
   padding-right: 38px;
 }
 
-<<<<<<< HEAD
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-=======
->>>>>>> 9136103 (install line-clamp - 5)
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-<<<<<<< HEAD
-=======
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-\[88px\] {
-  padding-left: 88px;
-  padding-right: 88px;
-}
-
->>>>>>> 9136103 (install line-clamp - 5)
 .px-\[48px\] {
   padding-left: 48px;
   padding-right: 48px;
 }
 
-<<<<<<< HEAD
-=======
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
->>>>>>> 9136103 (install line-clamp - 5)
 .pt-\[24px\] {
   padding-top: 24px;
 }
@@ -1146,18 +1061,6 @@ video {
   line-height: 2rem;
 }
 
-<<<<<<< HEAD
-=======
-.text-\[16px\] {
-  font-size: 16px;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
->>>>>>> 9136103 (install line-clamp - 5)
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -1219,25 +1122,14 @@ video {
   color: rgba(179, 179, 179, var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD
 .text-\[\#eaeaea\] {
   --tw-text-opacity: 1;
   color: rgba(234, 234, 234, var(--tw-text-opacity));
 }
 
-.text-\[\#2c77d0\] {
-  --tw-text-opacity: 1;
-  color: rgba(44, 119, 208, var(--tw-text-opacity));
-=======
 .text-\[\#2e76d0\] {
   --tw-text-opacity: 1;
   color: rgba(46, 118, 208, var(--tw-text-opacity));
-}
-
-.text-\[\#eaeaea\] {
-  --tw-text-opacity: 1;
-  color: rgba(234, 234, 234, var(--tw-text-opacity));
->>>>>>> 9136103 (install line-clamp - 5)
 }
 
 .opacity-0 {
@@ -1308,6 +1200,7 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (min-width: 500px) {
   .sm\:block {
     display: block;
@@ -1361,10 +1254,61 @@ video {
 @media (min-width: 640px) {
   .sm\:flex {
     display: flex;
+=======
+@media (min-width: 500px) {
+  .sm\:block {
+    display: block;
+>>>>>>> 82aed6d (grid and hide sidebar - 7)
   }
 
   .sm\:hidden {
     display: none;
 >>>>>>> b495309 (install line-clamp - 5)
+  }
+}
+
+@media (min-width: 900px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+}
+
+@media (min-width: 1100px) {
+  .lg\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 1400px) {
+  .xl\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 1600px) {
+  .\32xl\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 1800px) {
+  .\33xl\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 2000px) {
+  .\34xl\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 2200px) {
+  .\35xl\:block {
+    display: block;
   }
 }
