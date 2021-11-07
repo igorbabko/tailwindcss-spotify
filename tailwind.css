@@ -636,6 +636,7 @@ video {
   bottom: 0.5rem;
 }
 
+<<<<<<< HEAD
 .top-9 {
   top: 2.25rem;
 }
@@ -646,6 +647,10 @@ video {
 
 .left-full {
   left: 100%;
+=======
+.left-0 {
+  left: 0px;
+>>>>>>> b13c085... menu - 6
 }
 
 .z-10 {
@@ -787,10 +792,30 @@ video {
   cursor: auto;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b13c085... menu - 6
 .cursor-default {
   cursor: default;
 }
 
+<<<<<<< HEAD
+=======
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.grid-cols-main {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+>>>>>>> c1c094e (menu)
+>>>>>>> b13c085... menu - 6
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -825,12 +850,28 @@ video {
   margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
 }
 
+<<<<<<< HEAD
+=======
+.divide-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
+}
+
+>>>>>>> b13c085... menu - 6
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 
+<<<<<<< HEAD
+=======
+.divide-solid > :not([hidden]) ~ :not([hidden]) {
+  border-style: solid;
+}
+
+>>>>>>> b13c085... menu - 6
 .divide-\[\#3e3e3e\] > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgba(62, 62, 62, var(--tw-divide-opacity));
@@ -925,6 +966,13 @@ video {
   padding: 1rem;
 }
 
+<<<<<<< HEAD
+=======
+.p-2 {
+  padding: 0.5rem;
+}
+
+>>>>>>> b13c085... menu - 6
 .p-3 {
   padding: 0.75rem;
 }
