@@ -653,6 +653,18 @@ video {
 >>>>>>> b13c085... menu - 6
 }
 
+.left-full {
+  left: 100%;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -881,6 +893,13 @@ video {
   overflow: auto;
 }
 
+<<<<<<< HEAD
+=======
+.overflow-visible {
+  overflow: visible;
+}
+
+>>>>>>> 2d22906... internal menu - 6
 .whitespace-nowrap {
   white-space: nowrap;
 }
