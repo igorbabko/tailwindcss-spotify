@@ -770,6 +770,14 @@ video {
   width: 1rem;
 }
 
+.max-w-screen-6xl {
+  max-width: 2100px;
+}
+
+.max-w-screen-5xl {
+  max-width: 1900px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -789,10 +797,6 @@ video {
 
 .cursor-default {
   cursor: default;
-}
-
-.grid-cols-playlists-mobile {
-  grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
 }
 
 .grid-cols-4 {
@@ -1157,57 +1161,63 @@ video {
     display: block;
   }
 
-  .sm\:grid-cols-playlists-tablet {
+  .sm\:grid-cols-playlists-mobile {
+    grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+  }
+}
+
+@media (min-width: 700px) {
+  .md\:grid-cols-playlists-tablet {
     grid-template-columns: repeat(auto-fill, minmax(266px, 1fr));
   }
 }
 
 @media (min-width: 900px) {
-  .md\:block {
+  .lg\:block {
     display: block;
   }
 
-  .md\:flex {
+  .lg\:flex {
     display: flex;
   }
 
-  .md\:grid-cols-playlists-desktop {
+  .lg\:grid-cols-playlists-desktop {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   }
 }
 
 @media (min-width: 1100px) {
-  .lg\:block {
-    display: block;
-  }
-}
-
-@media (min-width: 1300px) {
   .xl\:block {
     display: block;
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
   .\32xl\:block {
     display: block;
   }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1500px) {
   .\33xl\:block {
     display: block;
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1700px) {
   .\34xl\:block {
     display: block;
   }
 }
 
-@media (min-width: 2100px) {
+@media (min-width: 1900px) {
   .\35xl\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 2100px) {
+  .\36xl\:block {
     display: block;
   }
 }

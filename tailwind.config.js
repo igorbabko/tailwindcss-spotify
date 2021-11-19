@@ -2,13 +2,14 @@ module.exports = {
   theme: {
     screens: {
       'sm': '500px',
-      'md': '900px',
-      'lg': '1100px',
-      'xl': '1300px',
-      '2xl': '1500px',
-      '3xl': '1700px',
-      '4xl': '1900px',
-      '5xl': '2100px',
+      'md': '700px',
+      'lg': '900px',
+      'xl': '1100px',
+      '2xl': '1300px',
+      '3xl': '1500px',
+      '4xl': '1700px',
+      '5xl': '1900px',
+      '6xl': '2100px',
     },
     extend: {
       gridTemplateColumns: {
