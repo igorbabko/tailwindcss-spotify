@@ -4,19 +4,21 @@ module.exports = {
       'sm': '500px',
       'md': '900px',
       'lg': '1100px',
-      'xl': '1400px',
-      '2xl': '1600px',
-      '3xl': '1800px',
-      '4xl': '2000px',
-      '5xl': '2200px'
+      'xl': '1300px',
+      '2xl': '1500px',
+      '3xl': '1700px',
+      '4xl': '1900px',
+      '5xl': '2100px',
     },
     extend: {
       gridTemplateColumns: {
-        'main': 'repeat(auto-fit, minmax(180px, 1fr))'
-      }
-    }
+        'playlists-mobile': 'repeat(auto-fill, minmax(208px, 1fr))',
+        'playlists-tablet': 'repeat(auto-fill, minmax(266px, 1fr))',
+        'playlists-desktop': 'repeat(auto-fill, minmax(180px, 1fr))',
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/line-clamp'),
   ],
-}
+};

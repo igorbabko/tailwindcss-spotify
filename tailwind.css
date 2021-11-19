@@ -770,10 +770,6 @@ video {
   width: 1rem;
 }
 
-.max-w-screen-5xl {
-  max-width: 2200px;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -795,8 +791,8 @@ video {
   cursor: default;
 }
 
-.grid-cols-main {
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+.grid-cols-playlists-mobile {
+  grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
 }
 
 .grid-cols-4 {
@@ -1160,6 +1156,10 @@ video {
   .sm\:block {
     display: block;
   }
+
+  .sm\:grid-cols-playlists-tablet {
+    grid-template-columns: repeat(auto-fill, minmax(266px, 1fr));
+  }
 }
 
 @media (min-width: 900px) {
@@ -1170,6 +1170,10 @@ video {
   .md\:flex {
     display: flex;
   }
+
+  .md\:grid-cols-playlists-desktop {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
 }
 
 @media (min-width: 1100px) {
@@ -1178,31 +1182,31 @@ video {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
   .xl\:block {
     display: block;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1500px) {
   .\32xl\:block {
     display: block;
   }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1700px) {
   .\33xl\:block {
     display: block;
   }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1900px) {
   .\34xl\:block {
     display: block;
   }
 }
 
-@media (min-width: 2200px) {
+@media (min-width: 2100px) {
   .\35xl\:block {
     display: block;
   }
