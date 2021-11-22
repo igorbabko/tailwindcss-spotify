@@ -611,6 +611,10 @@ video {
   --tw-shadow: 0 0 #0000;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -622,6 +626,13 @@ video {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
+}
+
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 .top-0 {
@@ -646,6 +657,10 @@ video {
 
 .left-full {
   left: 100%;
+}
+
+.z-30 {
+  z-index: 30;
 }
 
 .z-10 {
@@ -684,6 +699,14 @@ video {
 
 .mr-\[8px\] {
   margin-right: 8px;
+}
+
+.-ml-1\.5 {
+  margin-left: -0.375rem;
+}
+
+.-ml-1 {
+  margin-left: -0.25rem;
 }
 
 .ml-\[8px\] {
@@ -778,9 +801,22 @@ video {
   flex: 1 1 0%;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
+.-translate-x-full {
+  --tw-translate-x: -100%;
+  transform: var(--tw-transform);
+}
+
 .translate-y-3 {
   --tw-translate-y: 0.75rem;
   transform: var(--tw-transform);
+}
+
+.cursor-default {
+  cursor: default;
 }
 
 .cursor-not-allowed {
@@ -789,10 +825,6 @@ video {
 
 .cursor-auto {
   cursor: auto;
-}
-
-.cursor-default {
-  cursor: default;
 }
 
 .grid-cols-4 {
@@ -1099,6 +1131,18 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -1112,6 +1156,11 @@ video {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+.target\:translate-x-0:target {
+  --tw-translate-x: 0px;
+  transform: var(--tw-transform);
 }
 
 .hover\:scale-105:hover {
@@ -1152,6 +1201,14 @@ video {
   opacity: 1;
 }
 
+.peer:target ~ .peer-target\:z-20 {
+  z-index: 20;
+}
+
+.peer:target ~ .peer-target\:opacity-50 {
+  opacity: 0.5;
+}
+
 @media (min-width: 500px) {
   .sm\:block {
     display: block;
@@ -1169,12 +1226,26 @@ video {
 }
 
 @media (min-width: 900px) {
+  .lg\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
   .lg\:block {
     display: block;
   }
 
-  .lg\:flex {
-    display: flex;
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-auto {
+    height: auto;
+  }
+
+  .lg\:translate-x-0 {
+    --tw-translate-x: 0px;
+    transform: var(--tw-transform);
   }
 
   .lg\:grid-cols-playlists-desktop {
