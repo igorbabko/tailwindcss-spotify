@@ -835,6 +835,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-end {
   align-items: flex-end;
 }
@@ -853,6 +857,15 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-x-6 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.gap-y-2 {
+  row-gap: 0.5rem;
 }
 
 .space-y-9 > :not([hidden]) ~ :not([hidden]) {
@@ -1013,6 +1026,16 @@ video {
 .px-\[48px\] {
   padding-left: 48px;
   padding-right: 48px;
+}
+
+.px-\[17px\] {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.px-\[13px\] {
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 .pt-\[24px\] {
@@ -1216,6 +1239,16 @@ video {
 
   .sm\:grid-cols-playlists-mobile {
     grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+  }
+
+  .sm\:px-\[38px\] {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .sm\:px-\[32px\] {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
