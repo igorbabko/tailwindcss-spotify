@@ -611,6 +611,10 @@ video {
   --tw-shadow: 0 0 #0000;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .fixed {
   position: fixed;
 }
@@ -661,6 +665,10 @@ video {
 
 .z-30 {
   z-index: 30;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .z-10 {
@@ -1008,9 +1016,9 @@ video {
   padding-bottom: 9px;
 }
 
-.px-\[38px\] {
-  padding-left: 38px;
-  padding-right: 38px;
+.px-\[17px\] {
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 .py-4 {
@@ -1224,8 +1232,8 @@ video {
   opacity: 1;
 }
 
-.peer:target ~ .peer-target\:z-20 {
-  z-index: 20;
+.peer:target ~ .peer-target\:pointer-events-auto {
+  pointer-events: auto;
 }
 
 .peer:target ~ .peer-target\:opacity-50 {
@@ -1245,11 +1253,14 @@ video {
     padding-left: 38px;
     padding-right: 38px;
   }
+<<<<<<< HEAD
 
   .sm\:px-\[32px\] {
     padding-left: 32px;
     padding-right: 32px;
   }
+=======
+>>>>>>> 1d7e135 (wip)
 }
 
 @media (min-width: 700px) {
