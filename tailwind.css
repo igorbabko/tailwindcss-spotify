@@ -611,6 +611,10 @@ video {
   --tw-shadow: 0 0 #0000;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .fixed {
   position: fixed;
 }
@@ -661,6 +665,10 @@ video {
 
 .z-30 {
   z-index: 30;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .z-10 {
@@ -827,10 +835,6 @@ video {
   cursor: auto;
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -887,6 +891,10 @@ video {
 
 .overflow-auto {
   overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .whitespace-nowrap {
@@ -998,9 +1006,9 @@ video {
   padding-bottom: 10px;
 }
 
-.px-\[32px\] {
-  padding-left: 32px;
-  padding-right: 32px;
+.px-\[13px\] {
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 .py-\[9px\] {
@@ -1008,9 +1016,14 @@ video {
   padding-bottom: 9px;
 }
 
-.px-\[38px\] {
-  padding-left: 38px;
-  padding-right: 38px;
+.px-\[17px\] {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.px-\[32px\] {
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .py-4 {
@@ -1026,16 +1039,6 @@ video {
 .px-\[48px\] {
   padding-left: 48px;
   padding-right: 48px;
-}
-
-.px-\[17px\] {
-  padding-left: 17px;
-  padding-right: 17px;
-}
-
-.px-\[13px\] {
-  padding-left: 13px;
-  padding-right: 13px;
 }
 
 .pt-\[24px\] {
@@ -1224,8 +1227,8 @@ video {
   opacity: 1;
 }
 
-.peer:target ~ .peer-target\:z-20 {
-  z-index: 20;
+.peer:target ~ .peer-target\:pointer-events-auto {
+  pointer-events: auto;
 }
 
 .peer:target ~ .peer-target\:opacity-50 {
@@ -1241,14 +1244,14 @@ video {
     grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
   }
 
-  .sm\:px-\[38px\] {
-    padding-left: 38px;
-    padding-right: 38px;
-  }
-
   .sm\:px-\[32px\] {
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .sm\:px-\[38px\] {
+    padding-left: 38px;
+    padding-right: 38px;
   }
 }
 
